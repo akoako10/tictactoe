@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game-table {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.square {
+    font-size: 95px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    background: lightcyan;
+    color: cadetblue;
+}
+
+.status-message {
+    font-size: 75px;
+    color: darkgreen;
+    margin-top: 20px;
+}
+
+.restart {
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background-color: transparent;
+    border-radius: 17px;
+    border: 1px solid #1f2f47;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    padding: 7px 28px;
+    text-decoration: none;
+    text-shadow: 0px -4px 5px #263666;
+}
+
+.restart:hover {
+    background-color: transparent;
+}
+
+.restart:active {
+    position: relative;
+    top: 1px;
+}
+.choice {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.choice button {
+    background-color:lightcyan;
+	border-radius:16px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:15px 59px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+
+}
